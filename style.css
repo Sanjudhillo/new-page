@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Outfit", sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    /* border: 2px solid green; */
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#click{
+    display: none;
+}
+.navbar .menu-btn i{
+    color:#000;
+    font-size: 22px;
+    display: none;
+}
+
+.nav-items {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    gap: 32px;
+    list-style: none;
+
+}
+
+.navbar .nav-items a:hover {
+    color: #00A015;
+}
+
+
+.highlight {
+    color: #00A015;
+}
+
+
+
+.green_btn {
+    padding: 16px 32px 16px 32px;
+    background-color: #00A015;
+    font-weight: 500;
+    font-size: 18px;
+    color: #f1f1f1;
+    border-radius: 60px;
+    display: inline-block;
+    border: 1px solid transparent;
+}
+
+.green_btn:hover {
+    color: #00A015;
+    background-color: white;
+    border: 1px solid #00A015;
+}
+
+.hero-section a {
+    margin-top: 42px;
+}
+
+
+
+.color-green {
+    color: #00A015;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+.display-flex {
+    display: flex;
+}
+
+.align_center {
+    align-items: center;
+}
+
+.shadow {
+    box-shadow: 0px 0px 32px 0px #0000001A;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.width_33 {
+    width: 33%;
+}
+
+.width_32 {
+    width: 32%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mt-152 {
+    margin-top: 152px;
+}
+
+.pl-44 {
+    padding-left: 44px;
+}
+
+.mt-22 {
+    margin-top: 22px;
+}
+
+.mb-42 {
+    margin-bottom: 42px;
+}
+
+.mb-152 {
+    margin-bottom: 152px;
+}
+
+.card-border {
+    border: 1px solid #00000026;
+    border-radius: 12px;
+}
+
+.box {
+    padding: 24px;
+    height: 100%;
+}
+
+.box:hover {
+    box-shadow: 0px 0px 32px 0px #00000029;
+}
+
+.ml_22 {
+    margin-left: 22px;
+}
+
+.card {
+    padding: 24px 25px 56px 25px;
+    height: 100%;
+}
+
+.card h1 {
+    padding-top: 16px;
+    padding-bottom: 12px;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 32px 0px #00000029;
+
+}
+
+.pt-72 {
+    padding-top: 72px;
+}
+
+.background-color {
+    background-color: #f1f1f1;
+}
+
+.pb-52 {
+    padding-bottom: 52px;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.mb-140 {
+    margin-bottom: 80px;
+}
+
+.mb-45 {
+    margin-bottom: 45px;
+}
+
+.mt-46 {
+    margin-top: 46px;
+}
+
+.width_48 {
+    width: 49%;
+}
+
+
+
+.pl-21 {
+    padding-left: 21px;
+}
+
+.mt-24 {
+    margin-top: 24px;
+}
+
+.ml-21 {
+    margin-left: 21px;
+}
+
+.mr-23 {
+    margin-right: 23px;
+}
+
+.ml-24 {
+    margin-left: 24px;
+}
+
+.shadow-hover :hover {
+    box-shadow: 0px 0px 32px 0px #00000029;
+}
+
+.mt-8 {
+    margin-top: 8px;
+}
+
+.width_70 {
+    width: 70%;
+}
+
+.ml-12 {
+    margin-left: 12px;
+}
+
+
+
+.mt-12 {
+    margin-top: 12px;
+}
+
+.pt-92 {
+    padding-top: 92px;
+}
+
+.pb-92 {
+    padding-bottom: 92px;
+}
+
+.para_text_color {
+    color: #85888C;
+}
+
+
+
+.fw-400 {
+    font-weight: 400px;
+}
+
+.pt-4 {
+    padding-top: 4px;
+}
+
+.pt-32 {
+    padding-top: 32px;
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
+
+.mt-24 {
+    margin-top: 24px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+
+
+.w_100 {
+    width: 100%;
+}
+
+.color-white {
+    background-color: #ffffff;
+}
+
+.form-border {
+    border: 0.5px solid #00000029
+}
+
+.p_13 {
+    padding-left: 13px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.border-radius {
+    border-radius: 8px;
+}
+
+.pt-151 {
+    padding-top: 151px;
+}
+
+.mt-16 {
+    margin-top: 16px;
+}
+
+.height-110 {
+    height: 110px;
+}
+
+.pb-124 {
+    padding-bottom: 124px;
+}
+
+.margin-auto {
+    margin: auto;
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+.background-green {
+    /* background-color: #00A015; */
+    background: url("./zig\ zag\ image.png"), #00A015;
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+.radius-24 {
+    border-radius: 24px;
+}
+
+.background-black {
+    background-color: black;
+}
+
+.transform50 {
+    transform: translateY(50%);
+}
+
+.pt-245 {
+    padding-top: 245px;
+}
+
+.text-whitef1 {
+    color: #f1f1f1;
+}
+
+.mb-24 {
+    margin-bottom: 24px;
+}
+
+.pb-24 {
+    padding-bottom: 24px;
+}
+
+.gap-12 {
+    gap: 12px;
+}
+
+.mt-79 {
+    margin-top: 79px;
+}
