@@ -318,6 +318,9 @@ body {
     height: 110px;
 }
 
+.resize-none{
+    resize: none;
+}
 .pb-124 {
     padding-bottom: 124px;
 }
