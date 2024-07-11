@@ -1,0 +1,290 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none !important;
+    box-sizing: border-box !important;
+}
+body {
+    font-family: "Outfit", sans-serif;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.navbar .menu-btn i{
+    color:#000;
+    font-size: 22px;
+    display: none;
+}
+.navbar .nav-items a:hover {
+    color: #00A015;
+}
+.nav-items {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    gap: 32px;
+    list-style: none;
+
+
+}
+.text-black{
+    color: #000 !important;
+}
+
+.green_btn {
+    padding: 16px 32px 16px 32px;
+    background-color: #00A015;
+    font-weight: 500;
+    font-size: 18px;
+    color: #f1f1f1;
+    border-radius: 60px;
+    display: inline-block;
+    border: 1px solid transparent;
+}
+.green_btn:hover {
+    color: #00A015;
+    background-color: white;
+    border: 1px solid #00A015;
+}
+.highlight {
+    color: #00A015;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+
+.align_center {
+    align-items: center;
+}
+.w_100 {
+    width: 100%;
+}.text-center {
+    text-align: center;
+}
+.mb-42 {
+    margin-bottom: 42px;
+}.mt-16 {
+    margin-top: 16px;
+}
+.display-flex {
+    display: flex;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.width_33 {
+    width: 33%;
+}
+.just_centre{
+    justify-content: center
+}
+.color-green {
+    color: #00A015;
+}
+.fw-500{
+    font-weight: 500;
+}
+
+.shadow {
+    box-shadow: 0px 0px 32px 0px #0000001A;
+}
+.p_24_80{
+    padding: 24px 80px;
+}
+.mb-152 {
+    margin-bottom: 152px;
+}
+.w_100 {
+    width: 100%;
+}
+.pt-32 {
+    padding-top: 32px;
+}
+.pl-44 {
+    padding-left: 44px;
+}.mt-152 {
+    margin-top: 152px;
+}
+.mt-22 {
+    margin-top: 22px;
+}
+.col-4{
+    width: 33.33%;
+    padding-left: 12px;
+    padding-right: 12px;
+
+}
+.pt-72 {
+    padding-top: 72px;
+}
+.background-color {
+    background-color: #f1f1f1;
+}
+.pb-52 {
+    padding-bottom: 52px;
+}
+.mb-80 {
+    margin-bottom: 80px;
+}
+.card {
+    padding: 24px 25px 56px 25px;
+    height: 100%;
+}
+.card h1 {
+    padding-top: 16px;
+    padding-bottom: 12px;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 32px 0px #00000029;
+
+}
+.card-border {
+    border: 1px solid #00000026;
+    border-radius: 12px;
+}
+.mb-45 {
+    margin-bottom: 45px;
+}.mt-46 {
+    margin-top: 46px;
+}
+.box {
+    padding: 24px;
+    height: 100%;
+}
+
+.box:hover {
+    box-shadow: 0px 0px 32px 0px #00000029;
+}
+.ml_22 {
+    margin-left: 22px;
+}
+.mt-8 {
+    margin-top: 8px;
+}
+.para_text_color {
+    color: #85888C;
+}
+.mt-12 {
+    margin-top: 12px;
+}
+.ml-12 {
+    margin-left: 12px;
+}
+
+.width_70 {
+    width: 70%;
+}
+.pt-92 {
+    padding-top: 92px;
+}
+.pb-92 {
+    padding-bottom: 92px;
+}
+.pt-151 {
+    padding-top: 151px;
+}
+.pb-124 {
+    padding-bottom: 124px;
+}
+.mt-24 {
+    margin-top: 24px;
+}
+.pt-4 {
+    padding-top: 4px;
+}
+.pt-10 {
+    padding-top: 10px;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+.width_48 {
+    width: 49%;
+}
+.form-border {
+    border: 0.5px solid #00000029
+}
+.color-white {
+    background-color: #ffffff;
+}
+.border-radius {
+    border-radius: 8px;
+}
+.p_13 {
+    padding-left: 13px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+.height-110 {
+    height: 110px;
+}
+.resize-none{
+    resize: none;
+}
+.radius-24 {
+    border-radius: 24px;
+}
+.transform50 {
+    transform: translateY(50%);
+}.background-green {
+
+    background: url("./zig\ zag\ image.png"), #00A015;
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
+.margin-auto {
+    margin: auto;
+}
+.text-white {
+    color: #ffffff;
+}
+.gap-20 {
+    gap: 20px;
+}
+.background-black {
+    background-color: black;
+}
+.pt-245 {
+    padding-top: 245px;
+}
+
+.pb-24 {
+    padding-bottom: 24px;
+}
+.text-whitef1 {
+    color: #f1f1f1;
+}
+.gap-12 {
+    gap: 12px;
+}
+.mt-79 {
+    margin-top: 79px;
+}
+.justify-center {
+    justify-content: center;
+}
+.mt-20 {
+    margin-top: 20px;
+}
