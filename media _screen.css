@@ -63,7 +63,10 @@
     }
 
     .w-md-60 {
-        width: 60%;
+        width: 70%;
+    }
+    .mt-md-100{
+        margin-top: -100px !important;
     }
 
     .text-md-center {
@@ -87,10 +90,6 @@
 
     .fs-md-25 {
         font-size: 25px;
-    }
-
-    .w-md-95 {
-        width: 95%;
     }
 
     .mt-md-16 {
