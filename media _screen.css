@@ -2,7 +2,8 @@
     .d_none {
         display: none !important;
     }
-    .d-block-992{
+
+    .d-block-992 {
         display: block !important;
     }
 
@@ -33,7 +34,7 @@
     }
 
     ul.Mobile-view {
-        
+
         justify-content: center;
         align-items: center;
         position: fixed;
@@ -65,12 +66,13 @@
     .w-md-60 {
         width: 70%;
     }
-    .mt-md-100{
+
+    .mt-md-100 {
         margin-top: -100px !important;
     }
 
     .text-md-center {
-        text-align: center ;
+        text-align: center;
     }
 
     .hero-section {
@@ -103,19 +105,24 @@
     .mb-md-sm-15 {
         margin-bottom: 15px;
     }
-    .mt-md-25{
+
+    .mt-md-25 {
         margin-top: 25px !important;
     }
-    .mt-md-50{
+
+    .mt-md-50 {
         margin-top: 50px !important;
     }
-    .pt-md-25{
+
+    .pt-md-25 {
         padding-top: 25px;
     }
-    .pb-md-25{
+
+    .pb-md-25 {
         padding-bottom: 25px;
     }
-    .mt-md-100{
+
+    .mt-md-100 {
         margin-top: -100px !important;
     }
 
@@ -202,7 +209,17 @@
         width: 70%;
     }
 
+    .pt-92 {
+        padding-top: 30px;
+    }
 
+    .pb-92 {
+        padding-bottom: 25px;
+    }
+
+    .w_sm_100 {
+        width: 100%;
+    }
 }
 
 @media (max-width:768px) {
@@ -244,6 +261,7 @@
         font-size: 40px;
         font-weight: 700;
     }
+
     .container .hero-section .w_50 {
         width: 100%;
     }
@@ -271,6 +289,14 @@
 
     .w-sm-48 {
         width: 49%;
+    }
+
+    .pt-92 {
+        padding-top: 40px;
+    }
+
+    .pb-92 {
+        padding-bottom: 25px;
     }
 
 
@@ -335,6 +361,14 @@
         width: 33.33%;
     }
 
+    .pt-92 {
+        padding-top: 92px;
+    }
+
+    .pb-92 {
+        padding-bottom: 92px;
+    }
+
 }
 
 
@@ -371,7 +405,7 @@
     }
 
     .d_block992 {
-        display: block ;
+        display: block;
     }
 
     .d_none992 {
@@ -428,22 +462,28 @@
     .pt-lg-151 {
         padding-top: 151px;
     }
-    .mt-lg-151{
+
+    .mt-lg-151 {
         margin-top: 151px !important;
     }
-    .justify-lg-start{
+
+    .justify-lg-start {
         justify-content: start !important;
     }
-    .mb-lg-152{
+
+    .mb-lg-152 {
         margin-bottom: 152px;
     }
-    .pt-lg-92{
+
+    .pt-lg-92 {
         padding-top: 92px;
     }
-    .pb-lg-92{
+
+    .pb-lg-92 {
         padding-bottom: 92px;
     }
-    .pb-lg-124{
+
+    .pb-lg-124 {
         padding-bottom: 124px;
     }
 
